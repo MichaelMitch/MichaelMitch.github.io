@@ -1,0 +1,24 @@
+body{
+    background:#3478afa1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    border:5=px  gray solid;
+    border-radius: 8px;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    color: #050508f3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font: 1em sans-serif;
+    box-sizing: content-box;
+    width: 1000px;
+
+    background: #a7c5dda1;
+}
+
