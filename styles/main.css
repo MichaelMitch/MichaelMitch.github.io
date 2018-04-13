@@ -4,7 +4,7 @@ body{
 }
 h1{
     font-family: Verdana, Tahoma, sans-serif;
-    border:5=px  gray solid;
+    border:5px gray solid;
     border-radius: 8px;
     font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
@@ -21,4 +21,15 @@ p{
 
     background: #a7c5dda1;
 }
-
+img{
+    border-radius: 8px;
+}
+a:hover{
+    color: #3478afa1;
+}
+.centre{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    float: none;
+}
