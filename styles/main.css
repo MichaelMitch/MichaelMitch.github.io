@@ -6,15 +6,35 @@
     .navbar{
         display: none;
     }
+    .blogcardcontainer{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imgheader1{
+        display: none;
+    }
+    .headerbar{
+        width: 100%;
+    }
 }
-.blogcardcontainer{
-    width: 48%;
-    float: left;
-    margin-top: 4.66666666667%;
-    margin-left:4.66666666667%;
-    margin-right: 26%;
-    margin-bottom: 4.6666666667%;
+@media  (min-width:1000px){
+    .blogcardcontainer{
+        width: 48%;
+        float: left;
+        margin-top: 4.66666666667%;
+        margin-left:4.66666666667%;
+        margin-right: 26%;
+        margin-bottom: 4.6666666667%;
+        }
+    .imgheader2{
+        display: none;
+    }
+    .headerbar{
+        margin-right: 56.6666666667%;
+
+    }
 }
+
 
 .nav-entry{
 
