@@ -1,12 +1,24 @@
 *{ border: 1px solid red !important}
 
+
+
+@media  (max-width:1000px){
+    .navbar{
+        display: none;
+    }
+}
 .blogcardcontainer{
     width: 48%;
     float: left;
     margin-top: 4.66666666667%;
     margin-left:4.66666666667%;
+    margin-right: 26%;
+    margin-bottom: 4.6666666667%;
+}
+
+.nav-entry{
+
 }
 .navbar{
-    float: right; 
-    width: 50px;
+    margin-top: 4.66666666667%;
 }
