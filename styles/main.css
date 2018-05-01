@@ -16,8 +16,9 @@
     }
     .blogcardimage{
         height: 100%;
-        width: 100%;}
-}
+        width: 100%;
+    }
+}      
 @media  (min-width:1000px){
     .blogcardcontainer{
         width: 48%;
@@ -27,8 +28,16 @@
         margin-right: 13.3333333333%;
         margin-bottom: 4.6666666667%;
         }
-
+    .contborder{    
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        padding: 15px;
+        border-image: url(borderimage2.jpg) 50 round;
+    }
+        
 }
+
+
 
 .nav-entry{
     background: rgb(155, 184, 212);
@@ -96,12 +105,18 @@ h4{
     margin-left: 0%;
 
 }
-
-.blogcardcontainer{
-    background: rgb(155, 184, 212);
-    border: 2px gray solid;
-    }
 .blogcard{
     /* background: dodgerblue; */
     border: 2px gray solid;
+    margin-bottom: 30px;
+    background: rgb(155, 184, 212);
+}
+
+.blogcardtitle{
+    text-align: center;
+    background-image: url(cardimage.jpg);
+}
+
+.sites{
+    width: 100%;
 }
