@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog 1</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <h1>Basics of Javascript</h1>
+    <div class="container contborder" style="padding-left:4.666666%;padding-right:4.666666%; ">
+        <div class="blogcard ">          
+            <h3 class="blogcardtitle"> How does JavaScript compare to HTML and CSS?</h3>
+            <p>
+                Javascript differs as it's an object oriented language. Instead of being able to set classes and values to things straight off the bat you have to declare each variable before you use it. Javascript is meant to create programs instead of creating a site. You don't build individual boxes and fill them with information and styles like you do with HTML or CSS, instead you build a series of instructions for the computer to follow and then compile it for use within a site. Javascript seems to deal with the collection of information through use of their created objects.
+            </p>
+        </div>
+
+        <div class="blogcard ">  
+            <h3 class="blogcardtitle">Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h3> 
+            <p>
+                brushing teeth- </br>
+                toothpasteOnBrush = true;                                                   </br>
+                while toothpasteOnBrush == true && teethDirty ==true{                       </br>
+                    &emsp;    for i = 0, i<20, i++{                                         </br>
+                    &emsp;&emsp;        brushTeethFront()                                   </br>
+                    &emsp;    }                                                             </br>
+                    &emsp;    if toothpasteOnBrush == false{ reapplyToothpaste()}           </br>
+                    &emsp;    for i = 0, i<20, i++{                                         </br>
+                    &emsp;&emsp;        brushTeethBack()                                    </br>
+                    &emsp;    }                                                             </br>
+                    &emsp;    if toothpasteOnBrush == false{ reapplyToothpaste()}           </br>
+                    &emsp;    for i = 0, i<20, i++{                                         </br>
+                    &emsp;&emsp;        brushTeethTop()                                     </br>
+                    &emsp;    }                                                             </br>
+                }                                                                           </br>
+            </p>
+        </div>
+
+        <div class="blogcard ">     
+            <h3 class="blogcardtitle"> Explain the difference between accessing data from arrays and objects.</h3>
+            <p>
+                Accessing data from arrays is simple, in that all you really need to do is call the array with the location of the data you want. i.e dataIWant[4].
+                you can then use this in any operations you want to use, or store it into another variable. Sometimes the array is a nested array, and you may have to use a handful of locations to access the data you want. in that case you call dataIWant[4][5] to get to it. To access data from an object, you need to know the name of the variable within the object to retrieve it. sometimes the variable is only accessable to the object itself (written as this.dataIWant) and so you may need to call a function to get to it, these functions are usually called getter functions, and are written as get.DataIWant()
+        </div>
+
+        <div class="blogcard ">  
+            <h3 class="blogcardtitle"> Explain what functions are and why they are useful.</h3>
+            <p>
+                    Functions are extremely useful for code in terms of reusablility. if you have a process that you may need to redo many different times in your work, you can create it in a function and only have to call one line of code to use it. It doesn't have to be the same variables you pass to it too, as you can pass it variables, and the function will set it to the function variables you specified. once the varable has run, you can choose whether to return data that the function had ended at, or if you were just changing global variables with it you can just leave it at that.
+
+            </p>
+        </div>
+
+    </div>
+
+  </body>
+</html>
+
